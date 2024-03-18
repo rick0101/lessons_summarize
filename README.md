@@ -42,13 +42,13 @@ pip install -r requirements.txt
 2. Run the script:
 
 ``` bash
-python to_make.py
+python make_txt.py
 python AI.py
 ```
 
 Alternatively, you can run the PowerShell script `run.ps1` by right-clicking on it and selecting "Run with PowerShell".
 
-**Note:** If you don't have an NVIDIA GPU, you need to disable the CUDA device by commenting out or removing line 9 in the `to_make.py` file.
+**Note:** If you don't have an NVIDIA GPU, you need to disable the CUDA device by commenting out or removing line 9 in the `make_txt.py` file.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
