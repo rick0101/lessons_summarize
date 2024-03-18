@@ -1,24 +1,52 @@
-AI project to summarize lessons at university from an audio. 
-It uses whisper to trascrive the adio into text, and then g4f [https://github.com/xtekky/gpt4free.git] to summarize it using gemini.
+# Lesson Summarizer
 
-**NOTE: all the commands are included in "" symbol, you don't have to copy the quotes**
+This is an AI project that summarizes lessons at the university from an audio recording. It uses Whisper to transcribe the audio into text, and then utilizes the GPT-4-Free (g4f) library to summarize the text using the Gemini model.
 
-**To use it follow step by step this guide:**
+## Prerequisites
 
-**Clone the repository by typing on terminal: "git clone https://github.com/rick0101/lessons_summarize.git"**
+- Python 3.x
+- NVIDIA GPU (optional, but recommended for better performance)
 
-**open a terminal in "lessons_summarize" path, and follow below.**
+## Installation
 
-*1 = use the following command to initialize a venv environment:  python -m venv venv*
+1. Clone the repository:
 
-*2 = use the following command to activate the venv environment:  ./venv/Scripts/activate*
+```bash
+git clone https://github.com/rick0101/lessons_summarize.git
+```
 
-*3 = use the following command to install the requirements:  pip install -r ./requirements.txt*
+2. Navigate to the project directory:
 
-*4 = run using the .ps1 file, with left click, run as powershall. Or you can run first the file "to_make.py", and then the file "AI.py", by terminal with the command: "python to_nake.py" and after that with "python AI.py"*
+``` bash
+cd lessons_summarize
+```
 
+3. Create and activate a virtual environment:
 
-**IMPORTANT**
+``` python
+python -m venv venv
+./venv/Scripts/activate
+```
 
-Make sure that you have Nvidia graphic card, or you have to disable CUDA device from the line 9 in to_make.py file.
-This script works only if you give at the audio file a name, followed by "_prg" or "_adc" or "_asd" beacuse these are my courses.
+4. Install the required packages:
+
+``` python
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Place your audio files (with filenames ending in _prg, _adc, or _asd) in the project directory.
+2. Run the script:
+
+``` bash
+python to_make.py
+python AI.py
+```
+
+Alternatively, you can run the PowerShell script `run.ps1` by right-clicking on it and selecting "Run with PowerShell".
+
+**Note:** If you don't have an NVIDIA GPU, you need to disable the CUDA device by commenting out or removing line 9 in the `to_make.py` file.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
