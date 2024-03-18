@@ -1,7 +1,11 @@
 AI project to summarize lessons at university from an audio. 
 It uses whisper to trascrive the adio into text, and then g4f [https://github.com/xtekky/gpt4free.git] to summarize it using gemini.
 
+**NOTE: all the commands are included in "" symbol, you don't have to copy the quotes**
+
 **To use it follow step by step this guide:**
+
+**Clone the repository by typing on terminal: "git clone https://github.com/rick0101/lessons_summarize.git"**
 
 **open a terminal in "lessons_summarize" path, and follow below.**
 
