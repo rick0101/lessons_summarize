@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place your audio files (with filenames ending in _prg, _adc, or _asd) in the project directory.
+1. Place your audio files (with filenames ending in _prg, _adc, or _asd) in the raw directory.
 2. Run the script:
 
 ``` bash
