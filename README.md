@@ -1,6 +1,6 @@
 # Lesson Summarizer
 
-This is an AI project that summarizes lessons at the university from an audio recording. It uses Whisper to transcribe the audio into text, and then utilizes the GPT-4-Free (g4f) library to summarize the text using the Gemini model.
+This is an AI project that summarizes lessons at the university from an audio recording. It uses Whisper to transcribe the audio into text, and then utilizes the GPT-4-Free (g4f -> https://github.com/xtekky/gpt4free.git) library to summarize the text using the Gemini model.
 
 ## Prerequisites
 
